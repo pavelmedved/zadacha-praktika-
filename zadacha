@@ -1,6 +1,5 @@
-#include<stdio.h>
+#include <stdio.h>
 #include <math.h>
-#include <stdlib.h> // библиотека для функций system 
 int fact(int c) // объявление факториала функцией
     {
     return(c<2) ? 1 : // тернарный оператор ?:
@@ -8,9 +7,7 @@ int fact(int c) // объявление факториала функцией
     } 
 int main()
 {
-system("chcp 1251"); // переключаем консоль на русс. яз.
-system("cls"); 
-    int a = 1, b = 1, x, c = 1;
+int a = 1, b = 1, x, c = 1;
 printf(" Вычисление частичной суммы ряда");
 while(1) // бесконечный цикл
     {
